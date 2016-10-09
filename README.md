@@ -14,7 +14,7 @@ cat episodes_data/* > simpsons_data.txt
 
 # Training the model
 
-Training neural networks is expensive. We (@witchard) tried using a CPU to do so, and it was tedious. However, AWS GPUs are cheap (~$60/hour), making this silly project worth the pennies.
+Training neural networks is expensive. We ([witchard](https://github.com/witchard)) tried using a CPU to do so, and it was tedious. However, AWS GPUs are cheap (~$60/hour), making this silly project worth the pennies.
 
 I'll detail the method for both CPU and GPU below. We've made heavy use of docker here, making our lives much much easier.
 
