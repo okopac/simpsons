@@ -6,6 +6,13 @@
 
 * Install [Annaconda](https://www.continuum.io/downloads)
 
+# Setting up on AWS
+
+* Use the Nvidia template in the AWS market place
+* Install docker
+* Install [nvidia-docker](https://github.com/NVIDIA/nvidia-docker#other-distributions)
+* Replace all further `docker` commands with `nvidia-docker`
+
 # Running
 
 * First Download the data, its [here](https://www.kaggle.com/wcukierski/the-simpsons-by-the-data)
